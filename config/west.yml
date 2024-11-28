@@ -1,12 +1,12 @@
 manifest:
   remotes:
-    - name: zmk-source
+    - name: shouldnt
       url-base: https://github.com/shouldnt
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk-source
-      remote: shouldnt
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
