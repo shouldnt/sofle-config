@@ -2,7 +2,7 @@ file_format: "1"
 id: sofle
 name: Sofle
 type: shield
-url: https://github.com/shouldnt/zmk-shields/tree/main
+url: https://github.com/shouldnt/sofle-config/tree/main
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
